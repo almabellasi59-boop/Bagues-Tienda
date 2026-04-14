@@ -1,13 +1,92 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <title>Bagues Tienda</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo Bagués</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            margin: 0;
+            background-color: #f9f9f9;
+            color: #444;
+        }
+        header {
+            background-color: #f4cfdf; /* Rosa pastel */
+            padding: 30px;
+            text-align: center;
+            border-bottom: 3px solid #e1b1c6;
+        }
+        .galeria {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 40px 10px;
+        }
+        .producto {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            overflow: hidden;
+            width: 250px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+        .producto:hover {
+            transform: translateY(-5px);
+        }
+        .producto img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover; /* Esto hace que las fotos no se deformen */
+        }
+        .info {
+            padding: 15px;
+            text-align: center;
+        }
+        h2 { font-size: 1.2rem; margin: 10px 0; color: #5d4a66; }
+        .precio { color: #b8a782; font-weight: bold; font-size: 1.1rem; }
+    </style>
 </head>
 <body>
 
-  <h1>Bienvenidos a Bagues Tienda 💎</h1>
-  <p>Mi primera página web</p>
+<header>
+    <h1>Bagués - Tienda Oficial 💎</h1>
+    <p>Fragancias Internacionales y Bienestar</p>
+</header>
+
+<div class="galeria">
+
+    <div class="producto">
+        <img src="https://via.placeholder.com/250x250?text=Foto+1" alt="Producto Bagués">
+        <div class="info">
+            <h2>Fragancia Femenina</h2>
+            <p class="precio">$ Consultar</p>
+        </div>
+    </div>
+
+    <div class="producto">
+        <img src="https://via.placeholder.com/250x250?text=Foto+2" alt="Producto Bagués">
+        <div class="info">
+            <h2>Aromatizador Textil</h2>
+            <p class="precio">$ Consultar</p>
+        </div>
+    </div>
+
+    <div class="producto">
+        <img src="https://via.placeholder.com/250x250?text=Foto+3" alt="Producto Bagués">
+        <div class="info">
+            <h2>Línea Bienestar</h2>
+            <p class="precio">$ Consultar</p>
+        </div>
+    </div>
+
+</div>
+
+<footer style="text-align: center; padding: 20px; color: #999;">
+    &copy; 2026 Catálogo Digital Bagués
+</footer>
 
 </body>
 </html>
