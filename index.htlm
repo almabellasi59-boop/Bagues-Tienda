@@ -22,30 +22,59 @@
     </header>
 <div class="galeria">
 
-  <div class="producto">
-    <img src="Aromatizantes Ambientales Ropa.png">
-  </div>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Catálogo</title>
 
-  <div class="producto">
-    <img src="Aromatizantes Ambientales.png">
-  </div>
+  <style>
+    body {
+      font-family: Arial;
+      background: #f5f5f5;
+      text-align: center;
+    }
 
-  <div class="producto">
-    <img src="Aromatizantes AmbientesSanadado.png">
-  </div>
+    .contenedor {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .producto {
+      background: white;
+      margin: 10px;
+      padding: 10px;
+      border-radius: 10px;
+      width: 200px;
+    }
+
+    img {
+      width: 100%;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+
+<body>
+
+<h1>Catálogo</h1>
+
+<div class="contenedor">
 
   <div class="producto">
     <img src="Aromatizantes_Higos_y_Matcha.png">
   </div>
 
   <div class="producto">
-    <img src="Aromatizantes Orientales.png">
+    <img src="Aromatizantes_Orientales.png">
   </div>
 
   <div class="producto">
-    <img src="Difusor y Aromatizante Lino.png">
+    <img src="Difusor_y_Aromatizante_Lino.png">
   </div>
 
 </div>
+
 </body>
 </html>
