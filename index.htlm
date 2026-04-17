@@ -20,14 +20,30 @@
         <h1>Catálogo de Belleza</h1>
         <p>Fragancias y Cosmética Bagués</p>
     </header>
+<div class="galeria">
 
-    <div class="galeria">
-        <div class="producto"><img src="foto1.jpg" alt="Producto"></div>
-        <div class="producto"><img src="foto2.jpg" alt="Producto"></div>
-        <div class="producto"><img src="foto3.jpg" alt="Producto"></div>
-    </div>
+  <div class="producto">
+    <img src="Aromatizantes Ambientales Ropa.png">
+  </div>
 
-    <a href="https://wa.me/tu-numero-aqui" class="boton-wsp">Consultar por WhatsApp</a>
+  <div class="producto">
+    <img src="Aromatizantes Ambientales.png">
+  </div>
 
-</body>
-</html>
+  <div class="producto">
+    <img src="Aromatizantes AmbientesSanadado.png">
+  </div>
+
+  <div class="producto">
+    <img src="Aromatizantes Higos y Matcha.png">
+  </div>
+
+  <div class="producto">
+    <img src="Aromatizantes Orientales.png">
+  </div>
+
+  <div class="producto">
+    <img src="Difusor y Aromatizante Lino.png">
+  </div>
+
+</div>
